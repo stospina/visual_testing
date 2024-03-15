@@ -1,0 +1,16 @@
+{
+  "loggerLevel": "info",
+  "env": "{TEST_EXCUTION_ENV}",
+  "selenium": {
+    "launchOptions": {
+      "headless": true,
+      "language": "",
+      "size": {
+        "width": 1920,
+        "height": 1080
+      },
+      "browser": "chrome"
+    }
+  }
+}
+  
