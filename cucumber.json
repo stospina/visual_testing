@@ -1,7 +1,7 @@
 {
   "default": {
-    "paths": ["./**/tests/features/**/**/*.feature"],
-    "require": ["./**/tests/support/**/**/**/*.ts"],
+    "paths": ["./tests/features/**/**/*.feature"],
+    "require": ["./tests/support/**/**/**/*.ts"],
     "requireModule": ["ts-node/register"],
     "format": ["@cucumber/pretty-formatter", "json:Reports/report.json", "junit:Reports/report.xml"],
     "tags": "not (@Blocked or @ToDo)",

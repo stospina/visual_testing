@@ -1,7 +1,7 @@
-import { IConditions } from '@web-client/core/domain/IConditions';
-import { browserManager } from '@web-client/core/infrastructure/browserManager';
+import { IConditions } from '@core/domain/IConditions';
+import { browserManager } from '@core/infrastructure/browserManager';
 import { Locator, until, WebDriver, WebElement } from 'selenium-webdriver';
-import { logger } from '@shared/infrastructure/logger.Manager';
+import { logger } from '@core/infrastructure/logger.Manager';
 
 class Conditions implements IConditions {
   public async isLocated(locator: Locator, time?: number): Promise<void> {

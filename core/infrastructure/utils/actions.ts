@@ -1,7 +1,7 @@
-import { IActions } from '@web-client/core/domain/IAction';
-import { browserManager } from '@web-client/core/infrastructure/browserManager';
+import { IActions } from '@core/domain/IAction';
+import { browserManager } from '@core/infrastructure/browserManager';
 import { Key, Locator, until, WebElement } from 'selenium-webdriver';
-import { logger } from '@shared/infrastructure/logger.Manager';
+import { logger } from '@core/infrastructure/logger.Manager';
 
 class Actions implements IActions {
   public async click(locator: Locator): Promise<void> {

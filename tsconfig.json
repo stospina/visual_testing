@@ -16,10 +16,10 @@
     "types": ["node"],
     "typeRoots": ["node_modules/@types"],
     "paths": {
-      "@shared/*": ["shared/*"],
-      "@web-api/*": ["web-api-tests/*"],
+      "@core/*": ["core/*"],
+      "@clickup/*": ["clickup/*"],
+      "@tests/*": ["tests/*"],
       "@reports/*": ["reports/*"],
-      "@web-client/*": ["web-client-tests/*"],
       "@root/*": ["./*"]
     }
   },
